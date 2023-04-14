@@ -30,181 +30,351 @@
         {
             this.forecastLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.min1 = new System.Windows.Forms.Label();
-            this.minLabel = new System.Windows.Forms.Label();
-            this.max1 = new System.Windows.Forms.Label();
-            this.maxLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.date1 = new System.Windows.Forms.Label();
-            this.date2 = new System.Windows.Forms.Label();
-            this.min2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.max2 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.date0Label = new System.Windows.Forms.Label();
+            this.date6Label = new System.Windows.Forms.Label();
+            this.date5Label = new System.Windows.Forms.Label();
+            this.date4Label = new System.Windows.Forms.Label();
+            this.date3Label = new System.Windows.Forms.Label();
+            this.date2Label = new System.Windows.Forms.Label();
+            this.date1Label = new System.Windows.Forms.Label();
+            this.min0Output = new System.Windows.Forms.Label();
+            this.max0Output = new System.Windows.Forms.Label();
+            this.max1Output = new System.Windows.Forms.Label();
+            this.min1Output = new System.Windows.Forms.Label();
+            this.max2Output = new System.Windows.Forms.Label();
+            this.min2Output = new System.Windows.Forms.Label();
+            this.max3Output = new System.Windows.Forms.Label();
+            this.min3Output = new System.Windows.Forms.Label();
+            this.max4Output = new System.Windows.Forms.Label();
+            this.min4Output = new System.Windows.Forms.Label();
+            this.max5Output = new System.Windows.Forms.Label();
+            this.min5Output = new System.Windows.Forms.Label();
+            this.max6Output = new System.Windows.Forms.Label();
+            this.min6Output = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // forecastLabel
             // 
             this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
-            this.forecastLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.forecastLabel.ForeColor = System.Drawing.Color.White;
-            this.forecastLabel.Location = new System.Drawing.Point(213, 21);
-            this.forecastLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.forecastLabel.Font = new System.Drawing.Font("Monospac821 BT", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forecastLabel.ForeColor = System.Drawing.Color.Gainsboro;
+            this.forecastLabel.Location = new System.Drawing.Point(154, 9);
             this.forecastLabel.Name = "forecastLabel";
-            this.forecastLabel.Size = new System.Drawing.Size(124, 43);
+            this.forecastLabel.Size = new System.Drawing.Size(82, 28);
             this.forecastLabel.TabIndex = 62;
             this.forecastLabel.Text = "7 Day";
+            this.forecastLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(33, 21);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Font = new System.Drawing.Font("Monospac821 BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DarkGray;
+            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Location = new System.Drawing.Point(14, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 43);
+            this.label3.Size = new System.Drawing.Size(82, 28);
             this.label3.TabIndex = 61;
             this.label3.Text = "Today";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // min1
-            // 
-            this.min1.BackColor = System.Drawing.Color.White;
-            this.min1.Location = new System.Drawing.Point(234, 255);
-            this.min1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.min1.Name = "min1";
-            this.min1.Size = new System.Drawing.Size(33, 20);
-            this.min1.TabIndex = 48;
-            // 
-            // minLabel
-            // 
-            this.minLabel.AutoSize = true;
-            this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(90, 255);
-            this.minLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.minLabel.Name = "minLabel";
-            this.minLabel.Size = new System.Drawing.Size(133, 20);
-            this.minLabel.TabIndex = 46;
-            this.minLabel.Text = " Min Temperature";
-            // 
-            // max1
-            // 
-            this.max1.BackColor = System.Drawing.Color.White;
-            this.max1.Location = new System.Drawing.Point(234, 210);
-            this.max1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.max1.Name = "max1";
-            this.max1.Size = new System.Drawing.Size(33, 20);
-            this.max1.TabIndex = 45;
-            // 
-            // maxLabel
-            // 
-            this.maxLabel.AutoSize = true;
-            this.maxLabel.ForeColor = System.Drawing.Color.White;
-            this.maxLabel.Location = new System.Drawing.Point(90, 210);
-            this.maxLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.maxLabel.Name = "maxLabel";
-            this.maxLabel.Size = new System.Drawing.Size(133, 20);
-            this.maxLabel.TabIndex = 44;
-            this.maxLabel.Text = "Max Temperature";
             // 
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(194, 38);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label5.Location = new System.Drawing.Point(137, 18);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(172, 41);
+            this.label5.Size = new System.Drawing.Size(115, 27);
             this.label5.TabIndex = 63;
             this.label5.Text = "____________________________";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // date1
+            // date0Label
             // 
-            this.date1.AutoSize = true;
-            this.date1.ForeColor = System.Drawing.Color.White;
-            this.date1.Location = new System.Drawing.Point(90, 169);
-            this.date1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.date1.Name = "date1";
-            this.date1.Size = new System.Drawing.Size(44, 20);
-            this.date1.TabIndex = 64;
-            this.date1.Text = "Date";
+            this.date0Label.BackColor = System.Drawing.Color.Transparent;
+            this.date0Label.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date0Label.ForeColor = System.Drawing.Color.White;
+            this.date0Label.Location = new System.Drawing.Point(16, 94);
+            this.date0Label.Name = "date0Label";
+            this.date0Label.Size = new System.Drawing.Size(118, 23);
+            this.date0Label.TabIndex = 71;
+            this.date0Label.Text = "Current Date";
+            this.date0Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // date2
+            // date6Label
             // 
-            this.date2.AutoSize = true;
-            this.date2.ForeColor = System.Drawing.Color.White;
-            this.date2.Location = new System.Drawing.Point(90, 298);
-            this.date2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.date2.Name = "date2";
-            this.date2.Size = new System.Drawing.Size(44, 20);
-            this.date2.TabIndex = 69;
-            this.date2.Text = "Date";
+            this.date6Label.BackColor = System.Drawing.Color.Transparent;
+            this.date6Label.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date6Label.ForeColor = System.Drawing.Color.White;
+            this.date6Label.Location = new System.Drawing.Point(16, 324);
+            this.date6Label.Name = "date6Label";
+            this.date6Label.Size = new System.Drawing.Size(118, 23);
+            this.date6Label.TabIndex = 72;
+            this.date6Label.Text = "Date";
+            this.date6Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // min2
+            // date5Label
             // 
-            this.min2.BackColor = System.Drawing.Color.White;
-            this.min2.Location = new System.Drawing.Point(234, 384);
-            this.min2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.min2.Name = "min2";
-            this.min2.Size = new System.Drawing.Size(33, 20);
-            this.min2.TabIndex = 68;
+            this.date5Label.BackColor = System.Drawing.Color.Transparent;
+            this.date5Label.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date5Label.ForeColor = System.Drawing.Color.White;
+            this.date5Label.Location = new System.Drawing.Point(16, 286);
+            this.date5Label.Name = "date5Label";
+            this.date5Label.Size = new System.Drawing.Size(118, 23);
+            this.date5Label.TabIndex = 73;
+            this.date5Label.Text = "Date";
+            this.date5Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label4
+            // date4Label
             // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(90, 384);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(133, 20);
-            this.label4.TabIndex = 67;
-            this.label4.Text = " Min Temperature";
+            this.date4Label.BackColor = System.Drawing.Color.Transparent;
+            this.date4Label.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date4Label.ForeColor = System.Drawing.Color.White;
+            this.date4Label.Location = new System.Drawing.Point(16, 248);
+            this.date4Label.Name = "date4Label";
+            this.date4Label.Size = new System.Drawing.Size(118, 23);
+            this.date4Label.TabIndex = 74;
+            this.date4Label.Text = "Date";
+            this.date4Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // max2
+            // date3Label
             // 
-            this.max2.BackColor = System.Drawing.Color.White;
-            this.max2.Location = new System.Drawing.Point(234, 339);
-            this.max2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.max2.Name = "max2";
-            this.max2.Size = new System.Drawing.Size(33, 20);
-            this.max2.TabIndex = 66;
+            this.date3Label.BackColor = System.Drawing.Color.Transparent;
+            this.date3Label.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date3Label.ForeColor = System.Drawing.Color.White;
+            this.date3Label.Location = new System.Drawing.Point(16, 208);
+            this.date3Label.Name = "date3Label";
+            this.date3Label.Size = new System.Drawing.Size(118, 23);
+            this.date3Label.TabIndex = 75;
+            this.date3Label.Text = "Date";
+            this.date3Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label7
+            // date2Label
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(90, 339);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(133, 20);
-            this.label7.TabIndex = 65;
-            this.label7.Text = "Max Temperature";
+            this.date2Label.BackColor = System.Drawing.Color.Transparent;
+            this.date2Label.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date2Label.ForeColor = System.Drawing.Color.White;
+            this.date2Label.Location = new System.Drawing.Point(16, 170);
+            this.date2Label.Name = "date2Label";
+            this.date2Label.Size = new System.Drawing.Size(118, 23);
+            this.date2Label.TabIndex = 76;
+            this.date2Label.Text = "Date";
+            this.date2Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // date1Label
+            // 
+            this.date1Label.BackColor = System.Drawing.Color.Transparent;
+            this.date1Label.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date1Label.ForeColor = System.Drawing.Color.White;
+            this.date1Label.Location = new System.Drawing.Point(16, 132);
+            this.date1Label.Name = "date1Label";
+            this.date1Label.Size = new System.Drawing.Size(118, 23);
+            this.date1Label.TabIndex = 77;
+            this.date1Label.Text = "Tomorrow";
+            this.date1Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // min0Output
+            // 
+            this.min0Output.BackColor = System.Drawing.Color.Transparent;
+            this.min0Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min0Output.ForeColor = System.Drawing.Color.LightCyan;
+            this.min0Output.Location = new System.Drawing.Point(129, 99);
+            this.min0Output.Name = "min0Output";
+            this.min0Output.Size = new System.Drawing.Size(58, 13);
+            this.min0Output.TabIndex = 78;
+            this.min0Output.Text = "min";
+            this.min0Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // max0Output
+            // 
+            this.max0Output.BackColor = System.Drawing.Color.Transparent;
+            this.max0Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max0Output.ForeColor = System.Drawing.Color.LightPink;
+            this.max0Output.Location = new System.Drawing.Point(196, 99);
+            this.max0Output.Name = "max0Output";
+            this.max0Output.Size = new System.Drawing.Size(78, 13);
+            this.max0Output.TabIndex = 79;
+            this.max0Output.Text = "max";
+            this.max0Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // max1Output
+            // 
+            this.max1Output.BackColor = System.Drawing.Color.Transparent;
+            this.max1Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max1Output.ForeColor = System.Drawing.Color.LightPink;
+            this.max1Output.Location = new System.Drawing.Point(196, 137);
+            this.max1Output.Name = "max1Output";
+            this.max1Output.Size = new System.Drawing.Size(78, 13);
+            this.max1Output.TabIndex = 81;
+            this.max1Output.Text = "max";
+            this.max1Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // min1Output
+            // 
+            this.min1Output.BackColor = System.Drawing.Color.Transparent;
+            this.min1Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min1Output.ForeColor = System.Drawing.Color.LightCyan;
+            this.min1Output.Location = new System.Drawing.Point(129, 137);
+            this.min1Output.Name = "min1Output";
+            this.min1Output.Size = new System.Drawing.Size(58, 13);
+            this.min1Output.TabIndex = 80;
+            this.min1Output.Text = "min";
+            this.min1Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // max2Output
+            // 
+            this.max2Output.BackColor = System.Drawing.Color.Transparent;
+            this.max2Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max2Output.ForeColor = System.Drawing.Color.LightPink;
+            this.max2Output.Location = new System.Drawing.Point(196, 175);
+            this.max2Output.Name = "max2Output";
+            this.max2Output.Size = new System.Drawing.Size(78, 13);
+            this.max2Output.TabIndex = 83;
+            this.max2Output.Text = "max";
+            this.max2Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // min2Output
+            // 
+            this.min2Output.BackColor = System.Drawing.Color.Transparent;
+            this.min2Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min2Output.ForeColor = System.Drawing.Color.LightCyan;
+            this.min2Output.Location = new System.Drawing.Point(129, 175);
+            this.min2Output.Name = "min2Output";
+            this.min2Output.Size = new System.Drawing.Size(58, 13);
+            this.min2Output.TabIndex = 82;
+            this.min2Output.Text = "min";
+            this.min2Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // max3Output
+            // 
+            this.max3Output.BackColor = System.Drawing.Color.Transparent;
+            this.max3Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max3Output.ForeColor = System.Drawing.Color.LightPink;
+            this.max3Output.Location = new System.Drawing.Point(196, 213);
+            this.max3Output.Name = "max3Output";
+            this.max3Output.Size = new System.Drawing.Size(78, 13);
+            this.max3Output.TabIndex = 85;
+            this.max3Output.Text = "max";
+            this.max3Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // min3Output
+            // 
+            this.min3Output.BackColor = System.Drawing.Color.Transparent;
+            this.min3Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min3Output.ForeColor = System.Drawing.Color.LightCyan;
+            this.min3Output.Location = new System.Drawing.Point(129, 213);
+            this.min3Output.Name = "min3Output";
+            this.min3Output.Size = new System.Drawing.Size(58, 13);
+            this.min3Output.TabIndex = 84;
+            this.min3Output.Text = "min";
+            this.min3Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // max4Output
+            // 
+            this.max4Output.BackColor = System.Drawing.Color.Transparent;
+            this.max4Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max4Output.ForeColor = System.Drawing.Color.LightPink;
+            this.max4Output.Location = new System.Drawing.Point(196, 253);
+            this.max4Output.Name = "max4Output";
+            this.max4Output.Size = new System.Drawing.Size(78, 13);
+            this.max4Output.TabIndex = 87;
+            this.max4Output.Text = "max";
+            this.max4Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // min4Output
+            // 
+            this.min4Output.BackColor = System.Drawing.Color.Transparent;
+            this.min4Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min4Output.ForeColor = System.Drawing.Color.LightCyan;
+            this.min4Output.Location = new System.Drawing.Point(129, 253);
+            this.min4Output.Name = "min4Output";
+            this.min4Output.Size = new System.Drawing.Size(58, 13);
+            this.min4Output.TabIndex = 86;
+            this.min4Output.Text = "min";
+            this.min4Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // max5Output
+            // 
+            this.max5Output.BackColor = System.Drawing.Color.Transparent;
+            this.max5Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max5Output.ForeColor = System.Drawing.Color.LightPink;
+            this.max5Output.Location = new System.Drawing.Point(196, 291);
+            this.max5Output.Name = "max5Output";
+            this.max5Output.Size = new System.Drawing.Size(78, 13);
+            this.max5Output.TabIndex = 89;
+            this.max5Output.Text = "max";
+            this.max5Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // min5Output
+            // 
+            this.min5Output.BackColor = System.Drawing.Color.Transparent;
+            this.min5Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min5Output.ForeColor = System.Drawing.Color.LightCyan;
+            this.min5Output.Location = new System.Drawing.Point(129, 291);
+            this.min5Output.Name = "min5Output";
+            this.min5Output.Size = new System.Drawing.Size(58, 13);
+            this.min5Output.TabIndex = 88;
+            this.min5Output.Text = "min";
+            this.min5Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // max6Output
+            // 
+            this.max6Output.BackColor = System.Drawing.Color.Transparent;
+            this.max6Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max6Output.ForeColor = System.Drawing.Color.LightPink;
+            this.max6Output.Location = new System.Drawing.Point(196, 329);
+            this.max6Output.Name = "max6Output";
+            this.max6Output.Size = new System.Drawing.Size(78, 13);
+            this.max6Output.TabIndex = 91;
+            this.max6Output.Text = "max";
+            this.max6Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // min6Output
+            // 
+            this.min6Output.BackColor = System.Drawing.Color.Transparent;
+            this.min6Output.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min6Output.ForeColor = System.Drawing.Color.LightCyan;
+            this.min6Output.Location = new System.Drawing.Point(129, 329);
+            this.min6Output.Name = "min6Output";
+            this.min6Output.Size = new System.Drawing.Size(58, 13);
+            this.min6Output.TabIndex = 90;
+            this.min6Output.Text = "min";
+            this.min6Output.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ForecastScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.Controls.Add(this.date2);
-            this.Controls.Add(this.min2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.max2);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.date1);
+            this.Controls.Add(this.max6Output);
+            this.Controls.Add(this.min6Output);
+            this.Controls.Add(this.max5Output);
+            this.Controls.Add(this.min5Output);
+            this.Controls.Add(this.max4Output);
+            this.Controls.Add(this.min4Output);
+            this.Controls.Add(this.max3Output);
+            this.Controls.Add(this.min3Output);
+            this.Controls.Add(this.max2Output);
+            this.Controls.Add(this.min2Output);
+            this.Controls.Add(this.max1Output);
+            this.Controls.Add(this.min1Output);
+            this.Controls.Add(this.max0Output);
+            this.Controls.Add(this.min0Output);
+            this.Controls.Add(this.date1Label);
+            this.Controls.Add(this.date2Label);
+            this.Controls.Add(this.date3Label);
+            this.Controls.Add(this.date4Label);
+            this.Controls.Add(this.date5Label);
+            this.Controls.Add(this.date6Label);
+            this.Controls.Add(this.date0Label);
             this.Controls.Add(this.forecastLabel);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.min1);
-            this.Controls.Add(this.minLabel);
-            this.Controls.Add(this.max1);
-            this.Controls.Add(this.maxLabel);
             this.Controls.Add(this.label5);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ForecastScreen";
-            this.Size = new System.Drawing.Size(375, 615);
+            this.Size = new System.Drawing.Size(250, 400);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -212,16 +382,27 @@
 
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label min1;
-        private System.Windows.Forms.Label minLabel;
-        private System.Windows.Forms.Label max1;
-        private System.Windows.Forms.Label maxLabel;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label date1;
-        private System.Windows.Forms.Label date2;
-        private System.Windows.Forms.Label min2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label max2;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label date0Label;
+        private System.Windows.Forms.Label date6Label;
+        private System.Windows.Forms.Label date5Label;
+        private System.Windows.Forms.Label date4Label;
+        private System.Windows.Forms.Label date3Label;
+        private System.Windows.Forms.Label date2Label;
+        private System.Windows.Forms.Label date1Label;
+        private System.Windows.Forms.Label min0Output;
+        private System.Windows.Forms.Label max0Output;
+        private System.Windows.Forms.Label max1Output;
+        private System.Windows.Forms.Label min1Output;
+        private System.Windows.Forms.Label max2Output;
+        private System.Windows.Forms.Label min2Output;
+        private System.Windows.Forms.Label max3Output;
+        private System.Windows.Forms.Label min3Output;
+        private System.Windows.Forms.Label max4Output;
+        private System.Windows.Forms.Label min4Output;
+        private System.Windows.Forms.Label max5Output;
+        private System.Windows.Forms.Label min5Output;
+        private System.Windows.Forms.Label max6Output;
+        private System.Windows.Forms.Label min6Output;
     }
 }
