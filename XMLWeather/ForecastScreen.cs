@@ -20,9 +20,10 @@ namespace XMLWeather
         public void displayForecast()
         {
             //arrays to store labels
-            Label[] dates = new Label[] { date0Label, date1Label, date2Label, date3Label, date4Label, date5Label, date6Label };
-            Label[] minTemps = new Label[] { min0Output, min1Output, min2Output, min3Output, min4Output, min5Output, min6Output };
-            Label[] maxTemps = new Label[] { max0Output, max1Output, max2Output, max3Output, max4Output, max5Output, max6Output };
+            Label[] dates = new Label[] { date0Label, date1Label, date2Label, date3Label, date4Label, date5Label, date6Label },
+            minTemps = new Label[] { min0Output, min1Output, min2Output, min3Output, min4Output, min5Output, min6Output },
+            maxTemps = new Label[] { max0Output, max1Output, max2Output, max3Output, max4Output, max5Output, max6Output },
+            weatherConds = new Label[] { weather0Output, weather1Output, weather2Output, weather3Output, weather4Output, weather5Output, weather6Output };
 
             //display dates
             for (int i = 0; i < dates.Length; i++) {dates[i].Text = Form1.days[i].date;}
@@ -64,15 +65,29 @@ namespace XMLWeather
                 }
                 #endregion
             }
+
+            //display weather conditions
+            for (int i = 0; i < weatherConds.Length; i++) { weatherConds[i].Text = Form1.days[i].condition; }
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
+            //switch screen to Current Screen
             Form f = this.FindForm();
             f.Controls.Remove(this);
 
             CurrentScreen cs = new CurrentScreen();
             f.Controls.Add(cs);
+        }
+
+        private void searchLabel_Click(object sender, EventArgs e)
+        {
+            //switch screen to Search Screen
+            Form f = this.FindForm();
+            f.Controls.Remove(this);
+
+            SearchScreen fs = new SearchScreen();
+            f.Controls.Add(fs);
         }
     }
 }

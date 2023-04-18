@@ -39,6 +39,7 @@
             this.degreeLabel = new System.Windows.Forms.Label();
             this.weatherLabel = new System.Windows.Forms.Label();
             this.currentDateLabel = new System.Windows.Forms.Label();
+            this.searchLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cityOutput
@@ -82,9 +83,9 @@
             this.currentOutput.BackColor = System.Drawing.Color.Transparent;
             this.currentOutput.Font = new System.Drawing.Font("Monospac821 BT", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentOutput.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.currentOutput.Location = new System.Drawing.Point(3, 86);
+            this.currentOutput.Location = new System.Drawing.Point(0, 86);
             this.currentOutput.Name = "currentOutput";
-            this.currentOutput.Size = new System.Drawing.Size(244, 117);
+            this.currentOutput.Size = new System.Drawing.Size(250, 117);
             this.currentOutput.TabIndex = 28;
             this.currentOutput.Text = "00";
             this.currentOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -106,7 +107,7 @@
             this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
             this.forecastLabel.Font = new System.Drawing.Font("Monospac821 BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forecastLabel.ForeColor = System.Drawing.Color.DarkGray;
-            this.forecastLabel.Location = new System.Drawing.Point(154, 9);
+            this.forecastLabel.Location = new System.Drawing.Point(126, 9);
             this.forecastLabel.Name = "forecastLabel";
             this.forecastLabel.Size = new System.Drawing.Size(82, 28);
             this.forecastLabel.TabIndex = 41;
@@ -141,7 +142,7 @@
             this.degreeLabel.BackColor = System.Drawing.Color.Transparent;
             this.degreeLabel.Font = new System.Drawing.Font("Monospac821 BT", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.degreeLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.degreeLabel.Location = new System.Drawing.Point(164, 71);
+            this.degreeLabel.Location = new System.Drawing.Point(160, 71);
             this.degreeLabel.Name = "degreeLabel";
             this.degreeLabel.Size = new System.Drawing.Size(35, 38);
             this.degreeLabel.TabIndex = 44;
@@ -151,11 +152,11 @@
             // weatherLabel
             // 
             this.weatherLabel.BackColor = System.Drawing.Color.Transparent;
-            this.weatherLabel.Font = new System.Drawing.Font("Monospac821 BT", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weatherLabel.Font = new System.Drawing.Font("Monospac821 BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.weatherLabel.ForeColor = System.Drawing.Color.Silver;
-            this.weatherLabel.Location = new System.Drawing.Point(2, 273);
+            this.weatherLabel.Location = new System.Drawing.Point(2, 240);
             this.weatherLabel.Name = "weatherLabel";
-            this.weatherLabel.Size = new System.Drawing.Size(250, 20);
+            this.weatherLabel.Size = new System.Drawing.Size(250, 116);
             this.weatherLabel.TabIndex = 45;
             this.weatherLabel.Text = "Weather Condition";
             this.weatherLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -171,11 +172,25 @@
             this.currentDateLabel.Text = "Current Date";
             this.currentDateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // searchLabel
+            // 
+            this.searchLabel.BackColor = System.Drawing.Color.Transparent;
+            this.searchLabel.Font = new System.Drawing.Font("Technic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.searchLabel.ForeColor = System.Drawing.Color.DarkGray;
+            this.searchLabel.Location = new System.Drawing.Point(206, 0);
+            this.searchLabel.Name = "searchLabel";
+            this.searchLabel.Size = new System.Drawing.Size(46, 28);
+            this.searchLabel.TabIndex = 47;
+            this.searchLabel.Text = "Q";
+            this.searchLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.searchLabel.Click += new System.EventHandler(this.searchLabel_Click);
+            // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.searchLabel);
             this.Controls.Add(this.currentDateLabel);
             this.Controls.Add(this.weatherLabel);
             this.Controls.Add(this.degreeLabel);
@@ -205,5 +220,6 @@
         private System.Windows.Forms.Label degreeLabel;
         private System.Windows.Forms.Label weatherLabel;
         private System.Windows.Forms.Label currentDateLabel;
+        private System.Windows.Forms.Label searchLabel;
     }
 }

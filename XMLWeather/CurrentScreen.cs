@@ -30,22 +30,33 @@ namespace XMLWeather
 
             //if the temperature is 0 degrees, then it gets rounded to ""
             //fix the "empty" temperatures 
-            if (minOutput.Text == "")
+            if (currentOutput.Text == "")
             {
-                minOutput.Text = "0";
+                currentOutput.Text = "0";
             }
-            if (maxOutput.Text == "")
+            if (currentOutput.Text == "")
             {
-                maxOutput.Text = "0";
+                currentOutput.Text = "0";
             }
         }
 
         private void forecastLabel_Click(object sender, EventArgs e)
         {
+            //switch screen to Forecast Screen
             Form f = this.FindForm();
             f.Controls.Remove(this);
 
             ForecastScreen fs = new ForecastScreen();
+            f.Controls.Add(fs);
+        }
+
+        private void searchLabel_Click(object sender, EventArgs e)
+        {
+            //switch screen to Search Screen
+            Form f = this.FindForm();
+            f.Controls.Remove(this);
+
+            SearchScreen fs = new SearchScreen();
             f.Controls.Add(fs);
         }
     }
