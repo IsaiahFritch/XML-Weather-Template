@@ -47,7 +47,7 @@
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
             this.cityOutput.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.DarkGray;
-            this.cityOutput.Location = new System.Drawing.Point(0, 63);
+            this.cityOutput.Location = new System.Drawing.Point(0, 76);
             this.cityOutput.Name = "cityOutput";
             this.cityOutput.Size = new System.Drawing.Size(250, 20);
             this.cityOutput.TabIndex = 22;
@@ -59,7 +59,7 @@
             this.maxOutput.BackColor = System.Drawing.Color.Transparent;
             this.maxOutput.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxOutput.ForeColor = System.Drawing.Color.LightPink;
-            this.maxOutput.Location = new System.Drawing.Point(165, 197);
+            this.maxOutput.Location = new System.Drawing.Point(165, 210);
             this.maxOutput.Name = "maxOutput";
             this.maxOutput.Size = new System.Drawing.Size(78, 13);
             this.maxOutput.TabIndex = 32;
@@ -71,7 +71,7 @@
             this.minOutput.BackColor = System.Drawing.Color.Transparent;
             this.minOutput.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minOutput.ForeColor = System.Drawing.Color.LightCyan;
-            this.minOutput.Location = new System.Drawing.Point(50, 197);
+            this.minOutput.Location = new System.Drawing.Point(50, 210);
             this.minOutput.Name = "minOutput";
             this.minOutput.Size = new System.Drawing.Size(58, 13);
             this.minOutput.TabIndex = 30;
@@ -83,7 +83,7 @@
             this.currentOutput.BackColor = System.Drawing.Color.Transparent;
             this.currentOutput.Font = new System.Drawing.Font("Monospac821 BT", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentOutput.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.currentOutput.Location = new System.Drawing.Point(0, 86);
+            this.currentOutput.Location = new System.Drawing.Point(0, 99);
             this.currentOutput.Name = "currentOutput";
             this.currentOutput.Size = new System.Drawing.Size(250, 117);
             this.currentOutput.TabIndex = 28;
@@ -142,7 +142,7 @@
             this.degreeLabel.BackColor = System.Drawing.Color.Transparent;
             this.degreeLabel.Font = new System.Drawing.Font("Monospac821 BT", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.degreeLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.degreeLabel.Location = new System.Drawing.Point(160, 71);
+            this.degreeLabel.Location = new System.Drawing.Point(160, 84);
             this.degreeLabel.Name = "degreeLabel";
             this.degreeLabel.Size = new System.Drawing.Size(35, 38);
             this.degreeLabel.TabIndex = 44;
